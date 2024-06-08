@@ -38,10 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'wholesalers',
+    'products',
     
 
     #apps&dependencies
     'rest_framework',
+    'PIL',
+    'django_countries'
 ]
 
 MIDDLEWARE = [
